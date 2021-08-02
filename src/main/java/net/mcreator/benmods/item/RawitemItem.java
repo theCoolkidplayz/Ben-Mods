@@ -1,24 +1,35 @@
 
 package net.mcreator.benmods.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.benmods.itemgroup.ModdedstuffItemGroup;
+import net.mcreator.benmods.BenModsModElements;
+
+import java.util.List;
+
 @BenModsModElements.ModElement.Tag
 public class RawitemItem extends BenModsModElements.ModElement {
-
 	@ObjectHolder("ben_mods:rawitem")
 	public static final Item block = null;
-
 	public RawitemItem(BenModsModElements instance) {
 		super(instance, 2);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ModdedstuffItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("rawitem");
@@ -54,7 +65,5 @@ public class RawitemItem extends BenModsModElements.ModElement {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("used to make a medieval armor"));
 		}
-
 	}
-
 }
