@@ -9,12 +9,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "moddedstuff"
+    },
+    {
+      "name": "Rawitem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawitem"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ben_mods.rawitem": "Raw Ore",
       "itemGroup.tabmoddedstuff": "Moddedstuff"
     }
   },
