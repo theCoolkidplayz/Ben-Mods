@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "cloth_texture",
+    "texture": "clothtex",
     "customModelName": "Normal",
     "name": "Cloth",
     "rarity": "COMMON",
