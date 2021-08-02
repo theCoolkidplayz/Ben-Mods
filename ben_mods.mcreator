@@ -11,6 +11,15 @@
       "registry_name": "moddedstuff"
     },
     {
+      "name": "StringToCloth",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "string_to_cloth"
+    },
+    {
       "name": "Clothes",
       "type": "armor",
       "sortid": 2,
@@ -26,24 +35,6 @@
       }
     },
     {
-      "name": "Cloth",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cloth"
-    },
-    {
-      "name": "StringToCloth",
-      "type": "recipe",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "string_to_cloth"
-    },
-    {
       "name": "ClothToClothesCap",
       "type": "recipe",
       "sortid": 5,
@@ -53,13 +44,13 @@
       "registry_name": "cloth_to_clothes_cap"
     },
     {
-      "name": "ClothToClothesJacket",
-      "type": "recipe",
-      "sortid": 6,
+      "name": "Cloth",
+      "type": "item",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cloth_to_clothes_jacket"
+      "registry_name": "cloth"
     },
     {
       "name": "ClothToClothesPants",
@@ -71,6 +62,15 @@
       "registry_name": "cloth_to_clothes_pants"
     },
     {
+      "name": "ClothToClothesJacket",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloth_to_clothes_jacket"
+    },
+    {
       "name": "ClothToClothesBoots",
       "type": "recipe",
       "sortid": 8,
@@ -78,18 +78,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cloth_to_clothes_boots"
+    },
+    {
+      "name": "Rawitem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawitem"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.ben_mods.clothes_chestplate": "Clothes Body",
-      "item.ben_mods.cloth": "Cloth",
-      "item.ben_mods.clothes_boots": "Clothes Boots",
-      "itemGroup.tabmoddedstuff": "Moddedstuff",
-      "item.ben_mods.clothes_helmet": "Clothes Helmet",
-      "item.ben_mods.clothes_leggings": "Clothes Leggings"
+      "itemGroup.tabmoddedstuff": "Moddedstuff"
     }
   },
   "foldersRoot": {

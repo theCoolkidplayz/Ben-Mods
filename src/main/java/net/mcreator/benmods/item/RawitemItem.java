@@ -2,13 +2,13 @@
 package net.mcreator.benmods.item;
 
 @BenModsModElements.ModElement.Tag
-public class ClothItem extends BenModsModElements.ModElement {
+public class RawitemItem extends BenModsModElements.ModElement {
 
-	@ObjectHolder("ben_mods:cloth")
+	@ObjectHolder("ben_mods:rawitem")
 	public static final Item block = null;
 
-	public ClothItem(BenModsModElements instance) {
-		super(instance, 3);
+	public RawitemItem(BenModsModElements instance) {
+		super(instance, 2);
 
 	}
 
@@ -21,7 +21,17 @@ public class ClothItem extends BenModsModElements.ModElement {
 
 		public ItemCustom() {
 			super(new Item.Properties().group(ModdedstuffItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("cloth");
+			setRegistryName("rawitem");
+		}
+
+		@Override
+		public boolean hasContainerItem() {
+			return true;
+		}
+
+		@Override
+		public ItemStack getContainerItem(ItemStack itemstack) {
+			return new ItemStack(this);
 		}
 
 		@Override
@@ -37,6 +47,12 @@ public class ClothItem extends BenModsModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("used to make a medieval armor"));
 		}
 
 	}
