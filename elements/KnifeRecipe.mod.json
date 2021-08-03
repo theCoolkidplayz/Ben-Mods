@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Cloth"
-      },
-      {
-        "value": "CUSTOM:Cloth"
-      },
-      {
-        "value": "CUSTOM:Cloth"
-      },
-      {
-        "value": "CUSTOM:Cloth"
-      },
-      {
         "value": ""
       },
       {
-        "value": "CUSTOM:Cloth"
+        "value": ""
       },
       {
         "value": ""
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FLINT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Clothes.helmet"
+      "value": "CUSTOM:Knife"
     },
-    "name": "cloth_to_clothes_cap",
+    "name": "knife_recipe",
     "namespace": "mod"
   }
 }

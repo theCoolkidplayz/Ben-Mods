@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "betterknifetexture",
+    "customModelName": "Normal",
+    "name": "Knife",
+    "specialInfo": [
+      "A Simple Weapon With A Deadly Blade"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Moddedstuff"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 1,
+    "damageVsEntity": 2.5,
+    "usageCount": 150,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

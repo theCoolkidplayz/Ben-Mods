@@ -35,15 +35,6 @@
       }
     },
     {
-      "name": "ClothToClothesCap",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cloth_to_clothes_cap"
-    },
-    {
       "name": "Cloth",
       "type": "item",
       "sortid": 3,
@@ -87,6 +78,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rawitem"
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knife"
+    },
+    {
+      "name": "KnifeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knife_recipe"
+    },
+    {
+      "name": "YourFirstWeapon",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "your_first_weapon"
     }
   ],
   "variable_elements": [],
@@ -96,9 +114,12 @@
       "item.ben_mods.rawitem": "Raw Ore",
       "item.ben_mods.clothes_chestplate": "Clothes Body",
       "item.ben_mods.cloth": "Cloth",
+      "advancements.your_first_weapon.descr": "You got the first weapon ",
       "item.ben_mods.clothes_boots": "Clothes Boots",
       "itemGroup.tabmoddedstuff": "Moddedstuff",
       "item.ben_mods.clothes_helmet": "Clothes Helmet",
+      "item.ben_mods.knife": "Knife",
+      "advancements.your_first_weapon.title": "Your First Weapon",
       "item.ben_mods.clothes_leggings": "Clothes Leggings"
     }
   },
