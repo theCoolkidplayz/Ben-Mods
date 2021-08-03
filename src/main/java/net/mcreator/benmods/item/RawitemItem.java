@@ -36,16 +36,6 @@ public class RawitemItem extends BenModsModElements.ModElement {
 		}
 
 		@Override
-		public boolean hasContainerItem() {
-			return true;
-		}
-
-		@Override
-		public ItemStack getContainerItem(ItemStack itemstack) {
-			return new ItemStack(this);
-		}
-
-		@Override
 		public int getItemEnchantability() {
 			return 0;
 		}
