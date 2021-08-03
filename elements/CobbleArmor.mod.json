@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "clothingarmortexture_head",
+    "textureHelmet": "coble_armor_head",
     "enableBody": true,
-    "textureBody": "clothingarmortexture_body",
+    "textureBody": "coble_armor_body",
     "enableLeggings": true,
-    "textureLeggings": "clothingarmortexture_leggings",
+    "textureLeggings": "coble_armor_leggings",
     "enableBoots": true,
-    "textureBoots": "clothingarmortexture_boots",
+    "textureBoots": "coble_armor_boots",
     "creativeTab": {
       "value": "CUSTOM:Moddedstuff"
     },
-    "armorTextureFile": "clothingarmortexture",
-    "helmetName": "Clothes Helmet",
-    "bodyName": "Clothes Body",
-    "leggingsName": "Clothes Leggings",
-    "bootsName": "Clothes Boots",
+    "armorTextureFile": "coble_armor",
+    "helmetName": "Cobble Armor Helmet",
+    "bodyName": "Cobble Armor Body",
+    "leggingsName": "Cobble Armor Leggings",
+    "bootsName": "Cobble Armor Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,17 +38,21 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 8,
-    "damageValueHelmet": 0,
-    "damageValueBody": 3,
-    "damageValueLeggings": 2,
+    "maxDamage": 11,
+    "damageValueHelmet": 2,
+    "damageValueBody": 4,
+    "damageValueLeggings": 3,
     "damageValueBoots": 1,
-    "enchantability": 3,
-    "toughness": 0.1,
+    "enchantability": 5,
+    "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "Blocks.COBBLESTONE"
+      }
+    ]
   }
 }

@@ -32,7 +32,7 @@
       "name": "Knife",
       "type": "tool",
       "sortid": 9,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "knife"
@@ -50,7 +50,7 @@
       "name": "Clothes",
       "type": "armor",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "clothes",
@@ -74,7 +74,7 @@
       "name": "Cloth",
       "type": "item",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "cloth"
@@ -116,6 +116,15 @@
       "registry_name": "cloth_to_clothes_boots"
     },
     {
+      "name": "RawStonehelmutrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_stonehelmutrecipe"
+    },
+    {
       "name": "RawStonechest",
       "type": "armor",
       "sortid": 3,
@@ -131,13 +140,13 @@
       }
     },
     {
-      "name": "RawStonehelmutrecipe",
+      "name": "RawStonebootsrecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "raw_stonehelmutrecipe"
+      "registry_name": "raw_stonebootsrecipe"
     },
     {
       "name": "RawStoneChestrecipe",
@@ -158,13 +167,55 @@
       "registry_name": "raw_stonelegsrecipe"
     },
     {
-      "name": "RawStonebootsrecipe",
+      "name": "CobbleArmorTexx",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor_texx"
+    },
+    {
+      "name": "CobbleArmorTex",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor_tex"
+    },
+    {
+      "name": "CobbleArmor",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CobbleArmorTexxx",
       "type": "recipe",
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "raw_stonebootsrecipe"
+      "registry_name": "cobble_armor_texxx"
+    },
+    {
+      "name": "CobbleArmorTexxxx",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor_texxxx"
     }
   ],
   "variable_elements": [],
