@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ben_mods:blocks/raw_stone",
+    "up": "ben_mods:blocks/raw_stone",
+    "north": "ben_mods:blocks/raw_stone",
+    "east": "ben_mods:blocks/raw_stone",
+    "south": "ben_mods:blocks/raw_stone",
+    "west": "ben_mods:blocks/raw_stone",
+    "particle": "ben_mods:blocks/raw_stone"
+  }
+}
