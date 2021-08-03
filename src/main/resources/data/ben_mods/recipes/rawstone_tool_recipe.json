@@ -1,0 +1,42 @@
+{
+  "group": "ben_mods",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ben_mods:rawitem"
+    },
+    "1": {
+      "item": "ben_mods:rawitem"
+    },
+    "2": {
+      "item": "ben_mods:rawitem"
+    },
+    "3": {
+      "item": "ben_mods:rawitem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "ben_mods:rawitem"
+    },
+    "6": {
+      "item": "ben_mods:rawitem"
+    },
+    "7": {
+      "item": "ben_mods:rawitem"
+    },
+    "8": {
+      "item": "ben_mods:rawitem"
+    }
+  },
+  "result": {
+    "item": "ben_mods:rawstone_tool",
+    "count": 1
+  }
+}
