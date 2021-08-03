@@ -1,0 +1,26 @@
+{
+  "group": "ben_mods",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ben_mods:rawitem"
+    },
+    "2": {
+      "item": "ben_mods:rawitem"
+    },
+    "3": {
+      "item": "ben_mods:rawitem"
+    },
+    "5": {
+      "item": "ben_mods:rawitem"
+    }
+  },
+  "result": {
+    "item": "ben_mods:raw_stonechest_boots",
+    "count": 1
+  }
+}

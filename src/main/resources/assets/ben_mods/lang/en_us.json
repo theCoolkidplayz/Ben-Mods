@@ -1,4 +1,9 @@
 {
   "item.ben_mods.rawitem": "Raw Ore",
-  "itemGroup.tabmoddedstuff": "Moddedstuff"
+  "item.ben_mods.raw_stonechest_chestplate": "Raw Stonechest Body",
+  "item.ben_mods.raw_stonechest_leggings": "Raw Stonechest Leggings",
+  "itemGroup.tabmoddedstuff": "Moddedstuff",
+  "item.ben_mods.raw_stonechest_boots": "Raw Stonechest Boots",
+  "block.ben_mods.raw_stone": "Raw Stone",
+  "item.ben_mods.raw_stonechest_helmet": "Raw Stonechest Helmet"
 }

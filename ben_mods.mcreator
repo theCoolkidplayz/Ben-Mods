@@ -32,7 +32,7 @@
       "name": "Knife",
       "type": "tool",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "knife"
@@ -50,7 +50,7 @@
       "name": "Clothes",
       "type": "armor",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "clothes",
@@ -74,7 +74,7 @@
       "name": "Cloth",
       "type": "item",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "cloth"
@@ -114,6 +114,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cloth_to_clothes_boots"
+    },
+    {
+      "name": "RawStonechest",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_stonechest",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RawStonehelmutrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_stonehelmutrecipe"
+    },
+    {
+      "name": "RawStoneChestrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_stone_chestrecipe"
+    },
+    {
+      "name": "RawStonelegsrecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_stonelegsrecipe"
+    },
+    {
+      "name": "RawStonebootsrecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_stonebootsrecipe"
     }
   ],
   "variable_elements": [],
@@ -121,7 +172,12 @@
   "language_map": {
     "en_us": {
       "item.ben_mods.rawitem": "Raw Ore",
-      "itemGroup.tabmoddedstuff": "Moddedstuff"
+      "item.ben_mods.raw_stonechest_chestplate": "Raw Stonechest Body",
+      "item.ben_mods.raw_stonechest_leggings": "Raw Stonechest Leggings",
+      "itemGroup.tabmoddedstuff": "Moddedstuff",
+      "item.ben_mods.raw_stonechest_boots": "Raw Stonechest Boots",
+      "block.ben_mods.raw_stone": "Raw Stone",
+      "item.ben_mods.raw_stonechest_helmet": "Raw Stonechest Helmet"
     }
   },
   "foldersRoot": {
