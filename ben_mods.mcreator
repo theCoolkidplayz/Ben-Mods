@@ -23,7 +23,7 @@
       "name": "RawStone",
       "type": "block",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_stone"
@@ -116,19 +116,10 @@
       "registry_name": "cloth_to_clothes_boots"
     },
     {
-      "name": "RawStonehelmutrecipe",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_stonehelmutrecipe"
-    },
-    {
       "name": "RawStonechest",
       "type": "armor",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_stonechest",
@@ -188,7 +179,7 @@
       "name": "CobbleArmor",
       "type": "armor",
       "sortid": 12,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "cobble_armor",
@@ -216,19 +207,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cobble_armor_texxxx"
+    },
+    {
+      "name": "RawstoneHelmRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawstone_helm_recipe"
+    },
+    {
+      "name": "RawstoneTool",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawstone_tool"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ben_mods.cobble_armor_leggings": "Cobble Armor Leggings",
+      "item.ben_mods.cobble_armor_boots": "Cobble Armor Boots",
+      "item.ben_mods.rawstone_tool": "Rawstone Tool",
+      "block.ben_mods.raw_stone": "Raw Stone",
+      "item.ben_mods.raw_stonechest_helmet": "Raw Stonechest Helmet",
       "item.ben_mods.rawitem": "Raw Ore",
+      "item.ben_mods.cobble_armor_chestplate": "Cobble Armor Body",
       "item.ben_mods.raw_stonechest_chestplate": "Raw Stonechest Body",
       "item.ben_mods.raw_stonechest_leggings": "Raw Stonechest Leggings",
+      "item.ben_mods.cobble_armor_helmet": "Cobble Armor Helmet",
       "itemGroup.tabmoddedstuff": "Moddedstuff",
-      "item.ben_mods.raw_stonechest_boots": "Raw Stonechest Boots",
-      "block.ben_mods.raw_stone": "Raw Stone",
-      "item.ben_mods.raw_stonechest_helmet": "Raw Stonechest Helmet"
+      "item.ben_mods.raw_stonechest_boots": "Raw Stonechest Boots"
     }
   },
   "foldersRoot": {

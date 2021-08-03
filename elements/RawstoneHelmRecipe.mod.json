@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:RawStonechest.helmet"
     },
-    "name": "raw_stone_helmet_recipe",
+    "name": "rawstone_helm_recipe",
     "namespace": "mod"
   }
 }
