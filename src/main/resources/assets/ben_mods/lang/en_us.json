@@ -1,12 +1,16 @@
 {
-  "item.ben_mods.rawitem": "Raw Ore",
+  "item.ben_mods.cobble_armor_leggings": "Cobble Armor Leggings",
   "item.ben_mods.clothes_chestplate": "Clothes Body",
   "item.ben_mods.cloth": "Cloth",
   "advancements.your_first_weapon.descr": "You got the first weapon ",
-  "item.ben_mods.clothes_boots": "Clothes Boots",
-  "itemGroup.tabmoddedstuff": "Moddedstuff",
-  "item.ben_mods.clothes_helmet": "Clothes Helmet",
+  "item.ben_mods.cobble_armor_boots": "Cobble Armor Boots",
   "item.ben_mods.knife": "Knife",
   "advancements.your_first_weapon.title": "Your First Weapon",
-  "item.ben_mods.clothes_leggings": "Clothes Leggings"
+  "item.ben_mods.clothes_leggings": "Clothes Leggings",
+  "item.ben_mods.rawitem": "Raw Ore",
+  "item.ben_mods.cobble_armor_chestplate": "Cobble Armor Body",
+  "item.ben_mods.clothes_boots": "Clothes Boots",
+  "item.ben_mods.cobble_armor_helmet": "Cobble Armor Helmet",
+  "item.ben_mods.clothes_helmet": "Clothes Helmet",
+  "itemGroup.tabmoddedstuff": "Moddedstuff"
 }

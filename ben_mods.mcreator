@@ -105,22 +105,77 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "your_first_weapon"
+    },
+    {
+      "name": "CobbleArmor",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CobbleArmorTex",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor_tex"
+    },
+    {
+      "name": "CobbleArmorTexx",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor_texx"
+    },
+    {
+      "name": "CobbleArmorTexxx",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor_texxx"
+    },
+    {
+      "name": "CobbleArmorTexxxx",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_armor_texxxx"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.ben_mods.rawitem": "Raw Ore",
+      "item.ben_mods.cobble_armor_leggings": "Cobble Armor Leggings",
       "item.ben_mods.clothes_chestplate": "Clothes Body",
       "item.ben_mods.cloth": "Cloth",
       "advancements.your_first_weapon.descr": "You got the first weapon ",
-      "item.ben_mods.clothes_boots": "Clothes Boots",
-      "itemGroup.tabmoddedstuff": "Moddedstuff",
-      "item.ben_mods.clothes_helmet": "Clothes Helmet",
+      "item.ben_mods.cobble_armor_boots": "Cobble Armor Boots",
       "item.ben_mods.knife": "Knife",
       "advancements.your_first_weapon.title": "Your First Weapon",
-      "item.ben_mods.clothes_leggings": "Clothes Leggings"
+      "item.ben_mods.clothes_leggings": "Clothes Leggings",
+      "item.ben_mods.rawitem": "Raw Ore",
+      "item.ben_mods.cobble_armor_chestplate": "Cobble Armor Body",
+      "item.ben_mods.clothes_boots": "Clothes Boots",
+      "item.ben_mods.cobble_armor_helmet": "Cobble Armor Helmet",
+      "item.ben_mods.clothes_helmet": "Clothes Helmet",
+      "itemGroup.tabmoddedstuff": "Moddedstuff"
     }
   },
   "foldersRoot": {
