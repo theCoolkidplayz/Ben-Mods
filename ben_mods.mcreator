@@ -23,7 +23,7 @@
       "name": "RawStone",
       "type": "block",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_stone"
@@ -116,19 +116,10 @@
       "registry_name": "cloth_to_clothes_boots"
     },
     {
-      "name": "RawStonehelmutrecipe",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "raw_stonehelmutrecipe"
-    },
-    {
       "name": "RawStonechest",
       "type": "armor",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_stonechest",
@@ -188,7 +179,7 @@
       "name": "CobbleArmor",
       "type": "armor",
       "sortid": 12,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "cobble_armor",
@@ -225,6 +216,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_stonebricks"
+    },
+    {
+      "name": "RawstoneHelmRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawstone_helm_recipe"
+    },
+    {
+      "name": "RawstoneTool",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawstone_tool"
     }
   ],
   "variable_elements": [],
