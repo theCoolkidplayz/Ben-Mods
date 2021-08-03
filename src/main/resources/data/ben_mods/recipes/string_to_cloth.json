@@ -1,0 +1,13 @@
+{
+  "group": "ben_mods",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "ben_mods:deleted_mod_element",
+    "count": 1
+  }
+}

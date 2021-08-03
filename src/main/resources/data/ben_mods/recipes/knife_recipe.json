@@ -1,0 +1,16 @@
+{
+  "group": "ben_mods",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "ben_mods:knife",
+    "count": 1
+  }
+}

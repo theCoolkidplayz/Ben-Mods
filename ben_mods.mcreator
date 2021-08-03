@@ -27,6 +27,93 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_stone"
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knife"
+    },
+    {
+      "name": "StringToCloth",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "string_to_cloth"
+    },
+    {
+      "name": "Clothes",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clothes",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "YourFirstWeapon",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "your_first_weapon"
+    },
+    {
+      "name": "Cloth",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloth"
+    },
+    {
+      "name": "ClothToClothesPants",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloth_to_clothes_pants"
+    },
+    {
+      "name": "ClothToClothesJacket",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloth_to_clothes_jacket"
+    },
+    {
+      "name": "KnifeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knife_recipe"
+    },
+    {
+      "name": "ClothToClothesBoots",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloth_to_clothes_boots"
     }
   ],
   "variable_elements": [],
@@ -34,8 +121,7 @@
   "language_map": {
     "en_us": {
       "item.ben_mods.rawitem": "Raw Ore",
-      "itemGroup.tabmoddedstuff": "Moddedstuff",
-      "block.ben_mods.raw_stone": "Raw Stone"
+      "itemGroup.tabmoddedstuff": "Moddedstuff"
     }
   },
   "foldersRoot": {
