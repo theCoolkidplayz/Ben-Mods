@@ -37,7 +37,7 @@ public class ClothesItem extends BenModsModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 50;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 8;
 			}
 
 			@Override
