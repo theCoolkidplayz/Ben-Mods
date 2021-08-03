@@ -1,4 +1,15 @@
 {
+  "item.ben_mods.cobble_armor_leggings": "Cobble Armor Leggings",
+  "item.ben_mods.clothes_chestplate": "Clothes Body",
+  "item.ben_mods.cloth": "Cloth",
+  "item.ben_mods.cobble_armor_boots": "Cobble Armor Boots",
+  "item.ben_mods.knife": "Knife",
+  "item.ben_mods.clothes_leggings": "Clothes Leggings",
+  "block.ben_mods.raw_stone": "Raw Stone",
   "item.ben_mods.rawitem": "Raw Ore",
-  "itemGroup.tabmoddedstuff": "Moddedstuff"
+  "item.ben_mods.cobble_armor_chestplate": "Cobble Armor Body",
+  "item.ben_mods.cobble_armor_helmet": "Cobble Armor Helmet",
+  "item.ben_mods.clothes_boots": "Clothes Boots",
+  "itemGroup.tabmoddedstuff": "Moddedstuff",
+  "item.ben_mods.clothes_helmet": "Clothes Helmet"
 }
